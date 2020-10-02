@@ -15,15 +15,4 @@ public class MainPage extends AbstractPage {
         return this;
     }
 
-    public MainPage clickButton(WebElement element) {
-
-        element.click();
-        return this;
-    }
-
-    public MainPage fullField (WebElement element, String text) {
-        element.sendKeys(text);
-        return this;
-    }
-
 }
