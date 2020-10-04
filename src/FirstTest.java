@@ -3,6 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -29,6 +30,7 @@ public class FirstTest {
 
     @Test
     public void googleTest() {
+
         driver.get("https://www.google.com/");
 //        driver.findElement(By.name("q"))
 //        driver.findElement(By.cssSelector("[name=q]"));
