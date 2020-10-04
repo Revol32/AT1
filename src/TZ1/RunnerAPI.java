@@ -1,7 +1,9 @@
 package TZ1;
 
+import kong.unirest.HttpResponse;
+import kong.unirest.JsonNode;
+import kong.unirest.Unirest;
 import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -14,7 +16,9 @@ import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class RunnerAPI {
 
@@ -24,9 +28,9 @@ public class RunnerAPI {
 
     @Test
     public void HttpTest () throws IOException {
-
+/*
         HttpPost httpPost = new HttpPost(url);
-        httpPost.addHeader("accept", "application/json, text/plain, */*");
+        httpPost.addHeader("accept", "application/json, text/plain, ");
         httpPost.addHeader("accept-encoding","gzip, deflate, br");
         httpPost.addHeader("accept-language", "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7");
         httpPost.addHeader("content-type", "application/x-www-form-urlencoded");
@@ -54,6 +58,38 @@ public class RunnerAPI {
         System.out.println(httpPost);
         httpPost.setEntity(send);
         HttpResponse response = httpClient.execute(httpPost);
+        System.out.println(response);*/
+
+
+        Map httpHead = new HashMap<String,String>();
+        httpHead.put("accept", "application/json, text/plain, ");
+        httpHead.put("accept-encoding","gzip, deflate, br");
+        httpHead.put("accept-language", "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7");
+        httpHead.put("content-type", "application/x-www-form-urlencoded");
+        httpHead.put("Host","test.uxcrowd.ru");
+        httpHead.put("origin","https://test.uxcrowd.ru");
+        httpHead.put("Referer",	"https://test.uxcrowd.ru/");
+        httpHead.put("sec-fetch-dest","empty");
+        httpHead.put("sec-fetch-mode","cors");
+        httpHead.put("sec-fetch-site","same-origin");
+        httpHead.put("User-Agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36");
+        httpHead.put("x-xsrf-token","fae6792d-cc98-4b13-a78f-9edffebd26e4");
+
+        Map request = new HashMap<String,String>();
+        request.put("username","brizer@inbox.ru");
+        request.put("password","7EGDDl");
+        request.put("remember-me","undefined");
+        request.put("submit","Login");
+
+
+        HttpResponse<JsonNode> response = Unirest.post(url).headers(httpHead).cookie("XSRF-TOKEN", "fae6792d-cc98-4b13-a78f-9edffebd26e4").fields(request).asJson();
+        System.out.println(response.getStatus());
+        System.out.println(response.getHeaders());
+        System.out.println(response.getCookies());
+        System.out.println(response.getBody());
         System.out.println(response);
+
+
+
     }
 }
