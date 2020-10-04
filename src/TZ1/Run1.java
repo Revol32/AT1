@@ -68,12 +68,16 @@ public class Run1 {
     }
 
     @Test
-    public void TestLogin () {
+    public void TestLoginSuccess () {
         LoginTry(passtrue);
         Assert.assertNotNull(logoutButton, "Облом");
+    }
+
+    @Test
+    public void TestLoginFail () {
+
         LoginTry(pass);
         Assert.assertNotNull(errorMassage, "Облом");
-
     }
 
 
