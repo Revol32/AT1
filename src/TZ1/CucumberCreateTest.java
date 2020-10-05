@@ -12,17 +12,17 @@ import org.testng.annotations.BeforeMethod;
 import java.util.concurrent.TimeUnit;
 
 @CucumberOptions(
-            features = "resources/Login.feature",
-            glue = "TZ1.Logintest"
+        features = "resources/CreateTest.feature",
+        glue = "TZ1.Logintest"
 )
-public class CucumberLogin extends AbstractTestNGCucumberTests {
+
+public class CucumberCreateTest extends AbstractTestNGCucumberTests {
     static {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\brizer\\IdeaProjects\\AT1\\src\\chromedriver.exe");
     }
 
     private static WebDriver driver;
     private WebDriverWait webDriverWait;
-
 
     @BeforeMethod
     public WebDriver setUp() {
@@ -42,6 +42,5 @@ public class CucumberLogin extends AbstractTestNGCucumberTests {
     public static WebDriver getDriver() {
         return driver;
     }
-
 
 }

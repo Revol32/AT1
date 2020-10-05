@@ -51,7 +51,6 @@ public class Run1 {
 
     @FindBy(xpath = "//*[@data-testid='Create a new test button']")
     protected WebElement createNewTest;
-
     @FindBy(xpath = "//*[@data-testid='Test name input']")
     protected WebElement nameTestField;
     @FindBy(xpath = "//*[@data-testid='Address site input']")
@@ -60,11 +59,10 @@ public class Run1 {
     protected WebElement infoTestField;
     @FindBy(xpath = "//*[@data-testid='Submit button']")
     protected WebElement nextOneTestButton;
-
     @FindBy(xpath = "//*[@data-testid='Segment name input 0']")
     protected WebElement segmentNameField;
-        @FindBy(xpath = "//*[@data-testid='Users count input']")
-        protected WebElement usersCountField;
+    @FindBy(xpath = "//*[@data-testid='Users count input']")
+    protected WebElement usersCountField;
     @FindBy(xpath = "//*[@data-testid='Tasks button']")
     protected WebElement tasksButton;
     @FindBy(xpath = "//*[@data-testid='Tasks task question']")
