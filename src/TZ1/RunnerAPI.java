@@ -88,19 +88,20 @@ public class RunnerAPI {
 
     }
 
+    @Test
     public void successLogin() throws IOException {
         String token = getXSRFToken();
         response = tryLogin(login,passtrue,token);
         assertEquals(response.getStatus(), 200);
     }
-
+    @Test
     public void failLogin() throws IOException {
         String token = getXSRFToken();
         response = tryLogin(login,pass,token);
         Assert.assertFalse(response.getStatus() == 200, "Test");
     }
 
-
+    @Test
     public void registrationTest() {
         String token = getXSRFToken();
         Map<String, String> httpHead = new HashMap<>();
