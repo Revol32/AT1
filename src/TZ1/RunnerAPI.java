@@ -1,6 +1,5 @@
 package TZ1;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 import kong.unirest.*;
 import kong.unirest.json.JSONObject;
 import org.testng.Assert;
@@ -10,7 +9,6 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;

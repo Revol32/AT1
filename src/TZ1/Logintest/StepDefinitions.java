@@ -1,8 +1,5 @@
 package TZ1.Logintest;
 
-import TZ1.Logintest.DriverCr;
-import TZ1.CucumberLogin;
-import TZ1.Logintest.MainPage;
 
 import io.cucumber.java.ru.*;
 import org.openqa.selenium.Keys;
