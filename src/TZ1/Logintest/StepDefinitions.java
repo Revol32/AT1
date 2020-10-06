@@ -1,16 +1,20 @@
 package TZ1.Logintest;
 
+import TZ1.Logintest.DriverCr;
 import TZ1.CucumberLogin;
 import TZ1.Logintest.MainPage;
 
 import io.cucumber.java.ru.*;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 public class StepDefinitions {
+
+
     @FindBy(xpath = "//*[@data-testid='Login menu button']")
     protected WebElement loginButton;
 
@@ -56,6 +60,7 @@ public class StepDefinitions {
     @FindBy(xpath = "//*[@class='sc-bxivhb iaxSpn']")
     protected WebElement returnTestListButton;
 
+        public WebDriver driver;
 
 
     private String rnd () {
@@ -66,7 +71,7 @@ public class StepDefinitions {
 
     @Допустим("^зайдем на страницу \"(.+)\"$")
     public void openPage(String url) {
-        mainPage = new MainPage (CucumberLogin.getDriver());
+        mainPage = new MainPage (DriverCr.getDriver());
         PageFactory.initElements(MainPage.driver, this);
         mainPage.open(url);
     }
@@ -135,7 +140,7 @@ public class StepDefinitions {
     }
 
     @Затем("нажмем на кнопку \"К заданиям\"")
-    public void нажмемНаКнопку(String arg0) {
+    public void нажмемНаКнопкуКЗаданиям() {
         tasksButton.click();
     }
 
@@ -166,6 +171,7 @@ public class StepDefinitions {
 
     @Когда("мы увеидем список тестов, нажмем кнопку Выйти")
     public void мыУвеидемСписокТестовНажмемКнопкуВыйти() {
+        Assert.assertNotNull(logoutButton, "Облом");
         logoutButton.click();
     }
 

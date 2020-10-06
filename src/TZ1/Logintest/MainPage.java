@@ -1,19 +1,22 @@
 package TZ1.Logintest;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public class MainPage extends AbstractPage {
+public class MainPage {
 
-    public static WebDriver driver;
+    protected static WebDriver driver;
+    protected Logger logger = LoggerFactory.getLogger(getClass());
 
     public MainPage(WebDriver driver) {
-        super(driver);
         this.driver = driver;
+        PageFactory.initElements(driver, this);
     }
 
-    public MainPage open(String url) {
+    public void open(String url) {
         driver.get(url);
-        return this;
     }
 
 }
