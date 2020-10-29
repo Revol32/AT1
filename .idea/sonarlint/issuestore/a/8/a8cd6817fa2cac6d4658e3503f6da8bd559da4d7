@@ -1,0 +1,7 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â·ı¼
+Q
+java:S2696!"6Make the enclosing method "static" or remove this set.(Û²Œşÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(¿ÂÎº
+L
+java:S1068"1Remove this unused "webDriverWait" private field.(Ü‘¡’ıÿÿÿÿ

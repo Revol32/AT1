@@ -1,0 +1,19 @@
+
+@
+src/TZ1/Pass.txt,2\0\202c57118b52c204c874d8ebbec7737b181fb3c3
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+O
+src/TZ1/CucumberCreateTest.java,a\8\a8cd6817fa2cac6d4658e3503f6da8bd559da4d7
+O
+src/TZ1/Logintest/MainPage.java,0\4\04aad4d3212be609b63f32f198cf939ec60f6b5d
+V
+&src/TZ1/Logintest/StepDefinitions.java,e\9\e9f99d3dd2e16dac87b2874b1505a1956f679d13
+O
+src/TZ1/Logintest/DriverCr.java,f\e\fe60eae06c6c33afb51ca627d19cca5d238e3bfa
+E
+src/TZ2/bin/User.java,8\0\8077cb447b8b035bf4e5f4a326f3405c9a168153
+C
+src/TZ2/Sencha.java,6\1\619a4c55dd0dd81a967d32a8e82afcff0c61130d
+F
+src/TZ1/RunnerAPI.java,5\e\5efd3efb525e1dc370b5c3f7e21a3cefe7e371f3

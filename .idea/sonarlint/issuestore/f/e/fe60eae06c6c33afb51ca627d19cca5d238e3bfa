@@ -1,0 +1,8 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘·›¯ûÿÿÿÿ
+>
+java:S3010"#Remove this assignment of "driver".(¯ƒÊşÿÿÿÿ
+@
+java:S3010"*Remove this assignment of "webDriverWait".(˜»í—
+B
+java:S1905",Remove this unnecessary cast to "WebDriver".(˜»í—

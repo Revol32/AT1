@@ -1,0 +1,22 @@
+
+f
+java:S1192c"KDefine a constant instead of duplicating this literal "ÐžÐ±Ð»Ð¾Ð¼" 3 times.(¼Ë½éúÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘·›¯ûÿÿÿÿ
+m
+java:S1104<"RMake driver a static final constant or non-public and provide accessors if needed.(ÔèË©úÿÿÿÿ
+r
+java:S1450C"WRemove the "mainPage" field and declare it as a local variable in the relevant methods.(Œß¦©üÿÿÿÿ
+?
+java:S2140@")Use "java.util.Random.nextInt()" instead.(ùÁ¸¬
+h	java:S100r"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÀÐøøÿÿÿÿ
+h	java:S100w"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜·‘ûþÿÿÿÿ
+h	java:S100|"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½†Æ†úÿÿÿÿ
+d	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ŸáÕ
+i	java:S100†"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ë²ùËÿÿÿÿÿ
+i	java:S100Œ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éÕ¹çüÿÿÿÿ
+d	java:S100‘"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ð–ÃÖ
+i	java:S100–"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÊ˜’ýÿÿÿÿ
+i	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÄôÂýÿÿÿÿ
+d	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’à·ø
+i	java:S100¥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò»õ‹ùÿÿÿÿ
+i	java:S100ª"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åË»žùÿÿÿÿ

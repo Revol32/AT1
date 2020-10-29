@@ -1,0 +1,60 @@
+
+d
+java:S2095¦"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Ä¤˜¶ûÿÿÿÿ
+b
+java:S1192J"MDefine a constant instead of duplicating this literal "x-xsrf-token" 3 times.(ï¼|
+a
+java:S1192<"KDefine a constant instead of duplicating this literal "XSRF-TOKEN" 4 times.(£´ôü
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â·ı¼
+}
+java:S14881"gImmediately return this expression instead of assigning it to the temporary variable "generatedString".(¸á‚î
+u
+java:S1488C"_Immediately return this expression instead of assigning it to the temporary variable "session".(èá¶•
+{
+java:S1488S"`Immediately return this expression instead of assigning it to the temporary variable "response".(ãÎ ¨úÿÿÿÿ
+r
+java:S1450 "\Remove the "loginResponse" field and declare it as a local variable in the relevant methods.(è¹¡Ù
+<
+java:S1170"!Make this final field static too.(üèäÇøÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(˜ĞöÉûÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(Îóä
+7
+java:S1170"!Make this final field static too.(·²à¬
+<
+java:S1170"!Make this final field static too.(Ğ¸ò—øÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(°ºîÃ
+<
+java:S1170"!Make this final field static too.(ú“Û³ıÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(“ö‚Êøÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(·©Ëâùÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(ÿøºë
+V	java:S125&"<This block of commented-out lines of code should be removed.(ÒŸ¦”úÿÿÿÿ
+3
+java:S2119/"Save and re-use this "Random".(¼İÅf
+P	java:S1255"<This block of commented-out lines of code should be removed.(š‚f
+W
+java:S1117:"<Rename "response" which hides the field declared at line 31.(€Âÿ‹üÿÿÿÿ
+‡
+java:S1130G"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(–˜Ü–ıÿÿÿÿ
+W
+java:S1117S"<Rename "response" which hides the field declared at line 31.(ãÎ ¨úÿÿÿÿ
+R
+java:S1117v"<Rename "response" which hides the field declared at line 31.(ÉÜ‚ä
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦í–½
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(ÌìÒ±øÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(Ä¶ïÓ
+T	java:S106¡"9Replace this use of System.out or System.err by a logger.(Û£»Ğÿÿÿÿÿ
+O	java:S106¢"9Replace this use of System.out or System.err by a logger.(ï«¡›
+O	java:S106£"9Replace this use of System.out or System.err by a logger.(Š£ê¨
+O	java:S106¤"9Replace this use of System.out or System.err by a logger.(Æ½¢¾
+O	java:S106©"9Replace this use of System.out or System.err by a logger.(Ä¶ïÓ
+G
+java:S1068"1Remove this unused "loginCustomer" private field.(°ºîÃ
+O
+java:S1068"4Remove this unused "passtrueCustomer" private field.(“ö‚Êøÿÿÿÿ
